@@ -10,9 +10,16 @@ function App(): React.JSX.Element {
                 backgroundColor: "red",
             }}
         >
-            <h1 className="App-header">
-                UM COS420 with React Hooks and TypeScript
-            </h1>
+            <header
+                style={{
+                    backgroundColor: "red",
+                    padding: "20px",
+                }}
+            >
+                <h1 className="App-header">
+                    UM COS420 with React Hooks and TypeScript
+                </h1>
+            </header>
 
             <img
                 src="https://www.freecodecamp.org/news/content/images/2024/04/GitHub-1.png"
@@ -20,6 +27,7 @@ function App(): React.JSX.Element {
             />
 
             <Button
+                variant="primary"
                 onClick={() => {
                     console.log("Log Hello World");
                 }}
