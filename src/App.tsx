@@ -27,12 +27,12 @@ function App(): React.JSX.Element {
             />
 
             <Button
-                variant="primary"
+                className="btn btn-primary"
                 onClick={() => {
-                    console.log("Log Hello World");
+                    console.log("Hello World!");
                 }}
             >
-                Hello World!
+                Log Hello World!
             </Button>
 
             <p>
